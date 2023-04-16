@@ -11,4 +11,4 @@ jsonfile.writeFile(FILE_PATH, data,()=>{
         simpleGit().add([FILE_PATH]).commit(DATE,{'--date': DATE}).push();
     });
 }
-makeCommit(3,3);
+makeCommit(7,7);
